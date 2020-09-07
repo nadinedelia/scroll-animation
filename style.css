@@ -20,4 +20,10 @@ header h1{
 .animation{
     height: 100vh;
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    position: relative;
+    overflow: hidden;
+}
+.paper-plane{
+    height: 100px;
+    transform: rotate(50deg);
 }
