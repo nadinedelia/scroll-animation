@@ -1,9 +1,9 @@
 ## Corona Scroll Animation
 
-Need to tell your friends that you've tested positive?
+Need to tell your friends that they'd better stay at home?
 Do it with a nice animation.
 
 https://youhavetoquarantine.surge.sh
 
 
-(in memory of my dear friend Laura, who currently sits in quarantine)
+(for my dear friend Laura, who currently sits in quarantine)
