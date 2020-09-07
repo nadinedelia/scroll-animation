@@ -1,7 +1,7 @@
 gsap.registerPlugin(MotionPathPlugin);
 
 const tween = gsap.timeline();
-tween.to(".paper-plane", {
+tween.to(".helicopter", {
   duration: 5,
   ease: "power1.inOut",
   motionPath: {
@@ -12,9 +12,19 @@ tween.to(".paper-plane", {
          {x: 300, y: -50}, 
          {x: 600, y: 100}, 
          {x: 800, y: 0},
-         {x: window.innerWidth, y: 150}
+         {x: window.innerWidth, y: -250}
         ], 
     curviness: 1.25,
     autoRotate: true
   }
 });
+
+const controller = new ScrollMagic.Controller();
+
+const scene = new ScrollMagic.Scene({
+    triggerElement: '.animation',
+    duration: 3000,
+
+})
+.addIndicators()
+.addTo(controller);
