@@ -25,7 +25,6 @@ header h1{
 }
 .paper-plane{
     height: 100px;
-    transform: rotate(40deg);
     top: 50%;
     left: 0%;
     position: absolute;
