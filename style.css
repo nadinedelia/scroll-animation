@@ -14,12 +14,32 @@ section {
     font-family: 'Montserrat', sans-serif;
 }
 
-footer {
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+header {
+    background-color: #f9f586;
 }
+
+footer {
+    background-image: linear-gradient(to top,  #96fbc4 0%, #f9f586 100%);
+}
+
+
+section {
+    background-color: #96fbc4;
+}
+
 
 header h1{
     font-size: 100px;
+    font-family: 'Pacifico', cursive;
+}
+
+section h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
 }
 
 
@@ -37,5 +57,5 @@ header h1{
 }
 
 .mask {
-    height: 100px;
+    height: 200px;
 }
