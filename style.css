@@ -19,7 +19,7 @@ footer {
 }
 
 header h1{
-    font-size: 60px;
+    font-size: 100px;
 }
 
 
@@ -38,5 +38,4 @@ header h1{
 
 .mask {
     height: 100px;
-    justify-self: center;
 }
