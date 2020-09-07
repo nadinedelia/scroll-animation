@@ -1,7 +1,7 @@
 gsap.registerPlugin(MotionPathPlugin);
 
 const tween = gsap.timeline();
-tween.to(".helicopter", {
+tween.to(".corona", {
   duration: 5,
   ease: "power1.inOut",
   motionPath: {
